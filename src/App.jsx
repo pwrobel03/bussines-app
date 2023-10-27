@@ -1,16 +1,52 @@
 import React from 'react'
+import styles from './style'
 
-const test = async () => {
-  const theme = await localStorage.getItem("theme")
-  console.log(theme);
-}
+import {
+  Navbar,
+  Hero,
+  Business,
+  Button,
+  CardDeal,
+  Clients,
+  Cta,
+  Footer,
+  GetStarted,
+  Testimonials,
+  Stats
+} from './components'
 
-const App = () => {
-  test()
-  return (
-    <div className='bg-primary w-full overflow-hidden'>sdf</div>
-  )
-}
+const App = () => (
+  <div className='bg-primary w-full overflow-hidden'>
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Navbar>
+
+        </Navbar>
+      </div>
+    </div>
+
+
+
+    <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Hero></Hero>
+      </div>
+    </div>
+
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        Stats
+        Business
+        Billing
+        CardDeal
+        Testimonials
+        Clients
+        CTA
+        Footer
+      </div>
+    </div>
+  </div>
+)
 
 export default App
 
