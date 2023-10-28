@@ -1,6 +1,5 @@
-# bussines-app
-
-Project Author - Adrian Hajdin - JS Mastery - https://github.com/adrianhajdin/project_hoobank.git 
+# Project Author
+ - Adrian Hajdin - JS Mastery - https://github.com/adrianhajdin/project_hoobank.git 
 
 # React + Vite
 
