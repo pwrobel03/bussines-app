@@ -11,10 +11,10 @@ const Business = () => {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
         <Button styles='my-10'></Button>
       </div>
-      <div className='flex-1 flex flex-col items-start'>
+      <div className='flex-1 flex flex-col md:ml-6 items-start'>
         {features.map((feature) => {
           return (
-            <div key={feature.id} className='ml-6 flex sm:my-4 feature-card py-4 justify-center items-center flex-row rounded-[20px]'>
+            <div key={feature.id} className='flex sm:my-4 feature-card py-4 justify-center items-center flex-row rounded-[20px]'>
               <div className='flex w-[80px] h-[80px] items-start object-contain bg-dimBlue rounded-full items-center justify-center mx-4'>
                 <img src={feature.icon} alt={feature.title} />
               </div>
