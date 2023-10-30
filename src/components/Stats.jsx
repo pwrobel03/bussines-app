@@ -4,7 +4,6 @@ import styles from '../style'
 import { stats } from '../constants'
 
 const Stats = () => {
-    console.log(stats);
     return (
         <section className='w-[100%] flex justify-evenly sm:flex-row items-center flex-wrap sm:mb-20 mb-6 flex-col'>
             {stats.map((stat) => (

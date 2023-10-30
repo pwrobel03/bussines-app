@@ -39,7 +39,7 @@ const App = () => (
         <Stats></Stats>
         <Business></Business>
         <Billings></Billings>
-        CardDeal
+        <CardDeal></CardDeal>
         Testimonials
         Clients
         CTA
