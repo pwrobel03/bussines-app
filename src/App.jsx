@@ -40,7 +40,7 @@ const App = () => (
         <Business></Business>
         <Billings></Billings>
         <CardDeal></CardDeal>
-        Testimonials
+        <Testimonials></Testimonials>
         Clients
         CTA
         Footer
