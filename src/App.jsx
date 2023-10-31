@@ -42,7 +42,7 @@ const App = () => (
         <CardDeal></CardDeal>
         <Testimonials></Testimonials>
         <Clients></Clients>
-        CTA
+        <Cta></Cta>
         Footer
       </div>
     </div>
