@@ -33,7 +33,7 @@ const Footer = () => {
                 <p className={styles.paragraph}>2023 HooBank. All Rights Reserved.</p>
                 <div className='flex flex-1 flex-row gap-4 justify-end items-center sm:mt-0 mt-4'>
                     {socialMedia.map(social => (
-                        <img className="w-[40px]" src={social.icon} alt={social.name} onClick={() => document.location.href = social.link} />
+                        <img className="w-[40px]" key={social.id} src={social.icon} alt={social.name} onClick={() => document.location.href = social.link} />
                     ))}
                 </div>
             </div>
