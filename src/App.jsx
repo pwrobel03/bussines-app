@@ -43,7 +43,7 @@ const App = () => (
         <Testimonials></Testimonials>
         <Clients></Clients>
         <Cta></Cta>
-        Footer
+        <Footer></Footer>
       </div>
     </div>
   </div>
