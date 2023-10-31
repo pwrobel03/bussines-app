@@ -4,7 +4,7 @@ import { apple, bill, google } from '../assets'
 import styles from '../style'
 
 const Billings = () => (
-  <section id='features' className='flex flex-1 md:ml-6 md:flex-row flex-col-reverse justify-center sm:py-16 py-6'>
+  <section id='product' className='flex flex-1 md:ml-6 md:flex-row flex-col-reverse justify-center sm:py-16 py-6'>
     <div className="flex flex-1 relative">
       <img src={bill} alt="billing" className='w-[100%] h-[100%] relative z-[5]' />
       <div className="absolute z-[4] w-[50%] h-[50%] right-20 top-20 white__gradient"></div>

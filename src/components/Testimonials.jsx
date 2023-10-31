@@ -11,8 +11,8 @@ const FeedbackCard = ({ props }) => {
                 <img src={quotes} alt="quote" className='flex w-[64px]' />
                 <p className={`${styles.paragraph} my-6`}>{props.content}</p>
                 <div className='flex flex-1 items-end flex-row'>
-                    <div className='flex flex-1 gap-6 items-center '>
-                        <img src={props.img} alt={props.name} srcset="" />
+                    <div className='flex flex-1 gap-6 xs:flex-row flex-col items-center '>
+                        <img src={props.img} alt={props.name} />
                         <div className='flex flex-col justify-center'>
                             <p className={styles.paragraph}>{props.name}</p>
                             <p className={styles.paragraph}>{props.title}</p>

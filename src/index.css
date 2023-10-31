@@ -107,7 +107,7 @@
 }
 
 .feedback-card {
-  background: var(--black-gradient);
+  background: none;
 }
 
 .feedback-card:hover {
