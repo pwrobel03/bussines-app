@@ -159,21 +159,25 @@ export const socialMedia = [
     id: "social-media-1",
     icon: instagram,
     link: "https://www.instagram.com/",
+    name: "instagram"
   },
   {
     id: "social-media-2",
     icon: facebook,
     link: "https://www.facebook.com/",
+    name: "facebook"
   },
   {
     id: "social-media-3",
     icon: twitter,
     link: "https://www.twitter.com/",
+    name: "twitter"
   },
   {
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
+    name: "linkedin"
   },
 ];
 

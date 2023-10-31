@@ -7,7 +7,7 @@ import { quotes } from '../assets'
 const FeedbackCard = ({ props }) => {
     return (
         <div className="flex">
-            <div className="flex flex-1 h-full flex-col md:max-w-[400px] max-w-[600px] py-12 px-8 feedback-card z-[5] rounded-[1em] ">
+            <div className="flex flex-1 h-full flex-col md:max-w-[400px] max-w-[600px] py-6 px-8 feedback-card z-[5] rounded-[1em] ">
                 <img src={quotes} alt="quote" className='flex w-[64px]' />
                 <p className={`${styles.paragraph} my-6`}>{props.content}</p>
                 <div className='flex flex-1 items-end flex-row'>
